@@ -1,3 +1,16 @@
+-- | Protolude + the following modules re-exported from lifted-sync and
+-- lifted-base packages:
+--
+-- * "Control.Concurrent.Async.Lifted"
+-- * "Control.Concurrent.Chan.Lifted"
+-- * "Control.Concurrent.Lifted"
+-- * "Control.Concurrent.MVar.Lifted"
+-- * "Control.Concurrent.QSem.Lifted"
+-- * "Control.Concurrent.QSemN.Lifted"
+-- * "Control.Exception.Lifted"
+-- * "Data.IORef.Lifted"
+-- * "Foreign.Marshal.Utils.Lifted"
+-- * "System.Timeout.Lifted"
 module Protolude.Lifted
   ( module X
   ) where
