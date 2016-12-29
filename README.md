@@ -1,3 +1,3 @@
 # protolude-lifted
 
-add description of protolude-lifted here
+Protolude with lifted-base and lifted-async.
