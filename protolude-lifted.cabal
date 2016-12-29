@@ -1,8 +1,8 @@
 name:                protolude-lifted
 version:             0.1.0.0
-synopsis:            Protolude wwith lifted-base and lifted-async.
-description:         Please see README.md
-homepage:            https://github.com/pbogdan/protolude-lifted#readme
+synopsis:            Protolude with lifted-base and lifted-async.
+description:         Protolude with lifted-base and lifted-async.
+homepage:            https://github.com/pbogdan/protolude-lifted
 license:             BSD3
 license-file:        LICENSE
 author:              Piotr Bogdan
