@@ -1,3 +1,5 @@
+{-# LANGUAGE CPP #-}
+
 -- | Protolude + the following modules re-exported from lifted-sync and
 -- lifted-base packages:
 --
@@ -96,9 +98,15 @@ import Protolude as X hiding (
   , cancelWith
   , concurrently
   , forConcurrently
+#if MIN_VERSION_async(2,1,1)
+  , forConcurrently_
+#endif
   , link
   , link2
   , mapConcurrently
+#if MIN_VERSION_async(2,1,1)
+  , mapConcurrently_
+#endif
   , poll
   , race
   , race_
