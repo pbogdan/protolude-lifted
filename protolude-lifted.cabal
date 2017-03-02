@@ -1,5 +1,5 @@
 name:                protolude-lifted
-version:             0.1.0.1
+version:             0.1.1.0
 synopsis:            Protolude with lifted-base and lifted-async.
 description:         Protolude with lifted-base and lifted-async.
 homepage:            https://github.com/pbogdan/protolude-lifted
